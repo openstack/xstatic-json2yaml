@@ -1,0 +1,8 @@
+Code-Review+2: Kazunori Shinohara <ksnhr.tech@gmail.com>
+Workflow+1: Kazunori Shinohara <ksnhr.tech@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Wed, 04 Apr 2018 13:27:35 +0000
+Reviewed-on: https://review.openstack.org/558356
+Project: openstack/xstatic-json2yaml
+Branch: refs/heads/master
