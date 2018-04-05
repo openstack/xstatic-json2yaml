@@ -1,0 +1,9 @@
+Code-Review+2: Ivan Kolodyazhny <e0ne@e0ne.info>
+Code-Review+2: Kazunori Shinohara <ksnhr.tech@gmail.com>
+Workflow+1: Kazunori Shinohara <ksnhr.tech@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Thu, 05 Apr 2018 08:40:06 +0000
+Reviewed-on: https://review.openstack.org/559020
+Project: openstack/xstatic-json2yaml
+Branch: refs/heads/master
