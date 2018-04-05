@@ -28,7 +28,7 @@ MAINTAINER = 'xinni.ge'
 MAINTAINER_EMAIL = 'xinni.ge@ntt.com'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'https://github.com/coolaj86/json2yaml'
+HOMEPAGE = 'https://github.com/jeffsu/json2yaml'
 
 # this refers to all files:
 LICENSE = 'Apache 2.0'
