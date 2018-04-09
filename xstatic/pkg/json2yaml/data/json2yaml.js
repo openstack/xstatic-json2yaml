@@ -1,4 +1,7 @@
-(function (self) {
+(function (self) { 
+  /*
+   * TODO, lots of concatenation (slow in js)
+   */
   var spacing = "  ";
 
   function getType(obj) {
@@ -75,13 +78,17 @@
   }
 
   function normalizeString(str) {
-    return str;
+    if (str.match(/^[\w]+$/)) {
+      return str;
+    } else {
+      return JSON.stringify(str);
+    }
   }
 
   function convertString(obj, ret) {
     ret.push(normalizeString(obj));
   }
-
+  
   self.json2yaml = function(obj) {
     if (typeof obj == 'string') {
       obj = JSON.parse(obj);

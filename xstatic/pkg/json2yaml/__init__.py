@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1]  # package name (e.g. 'foo' or 'foo_bar')
                                 # please use a all-lowercase valid python
                                 # package name
 
-VERSION = '0.1.0'  # version of the packaged files, please use the upstream
+VERSION = '0.1.1'  # version of the packaged files, please use the upstream
                    # version number
 BUILD = '0'  # our package build number, so we can release new builds
              #  with fixes for xstatic stuff.
@@ -31,7 +31,7 @@ MAINTAINER_EMAIL = 'xinni.ge@ntt.com'
 HOMEPAGE = 'https://github.com/jeffsu/json2yaml'
 
 # this refers to all files:
-LICENSE = 'Apache 2.0'
+LICENSE = 'MIT'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
